@@ -27,10 +27,10 @@ export const themes = {
       "$background-accent-dark": "#007756",
     },
     gradient: {
-      "$gradient-lacrei": ["#018383", "#014687"],
-      "$gradient-header": ["#F5FFFB ", "#FFFFFF"],
-      "$gradient-simbolo": ["#008392", "#00BC86"],
-      "$gradient-rosa": ["#DF1098", "#BA17E2"],
+      "$gradient-lacrei": ["#018383,", "#014687"],
+      "$gradient-header": ["#F5FFFB,", "#FFFFFF"],
+      "$gradient-simbolo": ["#008392,", "#00BC86"],
+      "$gradient-rosa": ["#DF1098,", "#BA17E2"],
     },
   },
   typography: {
@@ -53,7 +53,7 @@ export const themes = {
       "$Headline-sm": {
         fontSize: "24px",
         lineHeiht: "150%",
-        fontWeight: "300",
+        fontWeight: "400",
       },
       "$Headline-sm-highlight": {
         fontSize: "24px",
@@ -70,12 +70,12 @@ export const themes = {
       "$Text-xl": {
         fontSize: "18px",
         lineHeiht: "150%",
-        fontWeight: "300",
+        fontWeight: "400",
       },
       "$Text-base": {
         fontSize: "16px",
         lineHeiht: "150%",
-        fontWeight: "300",
+        fontWeight: "400",
       },
       "$Text-base-highlight": {
         fontSize: "16px",
@@ -85,12 +85,12 @@ export const themes = {
       "$Text-sm": {
         fontSize: "14px",
         lineHeiht: "150%",
-        fontWeight: "300",
+        fontWeight: "400",
       },
       "$Text-xs": {
         fontSize: "12px",
         lineHeiht: "150%",
-        fontWeight: "300",
+        fontWeight: "400",
       },
       "$Text-xs-highlight": {
         fontSize: "16px",
