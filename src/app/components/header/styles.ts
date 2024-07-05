@@ -9,6 +9,11 @@ export const ContainerHeader = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 0;
+
+  @media (max-width: ${themes.grid.sm.breakpoints}) {
+    flex-direction: column;
+    gap: 0rem;
+  }
 `
 
 export const Logotype = styled.div`
@@ -19,7 +24,6 @@ export const Logotype = styled.div`
   img {
     max-width: 210px;
   }
-
 `
 export const Navbar = styled.nav`
   display: flex;

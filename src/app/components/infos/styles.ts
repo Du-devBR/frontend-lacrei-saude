@@ -16,6 +16,13 @@ export const ContainerInfos = styled.section`
     font-weight: ${themes.typography.headline["$Headline-lg"].fontWeight};
     text-align: center;
   }
+
+  @media (max-width: ${themes.grid.sm.breakpoints}) {
+    h2 {
+      font-size: ${themes.typography.headline["$Headline-sm-highlight"].fontSize};
+    }
+
+  }
 `
 
 export const GridCards = styled.div`
