@@ -9,7 +9,7 @@ export const ContainerHero = styled.section`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 400px;
+  margin: 3rem 0;
 
   img {
     background: linear-gradient(to right, ${themes.colors.gradient["$gradient-simbolo"]});
