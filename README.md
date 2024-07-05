@@ -1,10 +1,10 @@
 # Desafio Frontend Lacre Saúde |
 
 
-<!-- ![GitHub repo size](https://img.shields.io/github/repo-size/Du-devBR/tech-pro-bem)
-![GitHub language count](https://img.shields.io/github/languages/count/Du-devBR/tech-pro-bem)
-![GitHub forks](https://img.shields.io/github/forks/Du-devBR/tech-pro-bem)
-![GitHub license](https://img.shields.io/github/license/Du-devBR/tech-pro-bem) -->
+![GitHub repo size](https://img.shields.io/github/repo-size/Du-devBR/frontend-lacrei-saude)
+![GitHub language count](https://img.shields.io/github/languages/count/Du-devBR/frontend-lacrei-saude)
+![GitHub forks](https://img.shields.io/github/forks/Du-devBR/frontend-lacrei-saude)
+![GitHub license](https://img.shields.io/github/license/Du-devBR/frontend-lacrei-saude)
 
 > Projeto desenvolvido para Lacrei Saúde. Aplicação é uma de link que leva ao site Lacrei Saude desenvolvida em NextJs-14, nela é possivel visualizar os
 > links que forma uma map do site principal.
@@ -15,7 +15,8 @@
 <div
   style="width:100%; display:flex; gap:16px, flex-wrap: wrap"
 >
-<img src="./src/app/assets/images/screen-web.mp4" width="100%">
+<img src="./src/app/assets/images/screen1.png" width="50%">
+<img src="./src/app/assets/images/screen2.png" width="50%">
 </div>
 
 
@@ -41,11 +42,11 @@ Desenvolva **duas páginas web interativas**, com roteamento entre elas, incorpo
 <h3>Clone o repositorio</h3>
 
 ```bash
-git clone https://github.com/Du-devBR/
+git clone https://github.com/Du-devBR/frontend-lacrei-saude
 ```
 
 ```bash
-cd
+cd /lacrei-frontend
 ```
 
 ```bash
