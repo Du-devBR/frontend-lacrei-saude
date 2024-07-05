@@ -2,11 +2,14 @@ import Image from "next/image";
 import { ContainerHeader, Logotype, Navbar } from "./styles";
 import logo from "../../assets/images/logo.svg";
 import { Button } from "../ui/button";
+import Link from "next/link";
 export function Header() {
   return (
     <ContainerHeader>
       <Logotype>
-        <Image alt="" src={logo}></Image>
+        <Link href={"/"}>
+          <Image alt="" src={logo}></Image>
+        </Link>
       </Logotype>
       <Navbar>
         <ul>
