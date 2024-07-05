@@ -5,3 +5,11 @@ export interface PropsService {
   icon: string
   link: string
 }
+
+
+export interface PropsSocialNetwork {
+  id: number
+  name: string
+  icon: string
+  link: string
+}

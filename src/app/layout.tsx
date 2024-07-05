@@ -4,6 +4,7 @@ import Global from "../styles/globals";
 import StyledComponentsRegistry from "@/lib/registry";
 import Favicon from "../../public/favicon.ico";
 import { Header } from "./components/header";
+import { Footer } from "./components/footer";
 const nunito = Nunito({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -24,6 +25,7 @@ export default function RootLayout({
           <Global />
           <Header />
           {children}
+          <Footer />
         </StyledComponentsRegistry>
       </body>
     </html>

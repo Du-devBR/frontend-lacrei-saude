@@ -8,7 +8,7 @@ export const ContainerInfos = styled.section`
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  margin: 3rem 0;
+  margin: 4rem 0;
 
   h2 {
     font-size: ${themes.typography.headline["$Headline-lg"].fontSize};
