@@ -23,7 +23,8 @@ export const themes = {
       "$background-highlight": "#F9F3FF",
       "$background-accent-lighter": "#DFF2ED",
       "$background-accent-light": "#B2DFD0",
-      "$background-accent-medium": "4FB494",
+      "$background-accent-medium": "#4FB494",
+      "$background-accent-dark": "#007756",
     },
     gradient: {
       "$gradient-lacrei": ["#018383", "#014687"],

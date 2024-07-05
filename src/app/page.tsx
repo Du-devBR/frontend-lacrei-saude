@@ -1,11 +1,10 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import { Teste } from "./style";
+import { Pai, Teste } from "./style";
 
 export default function Home() {
   return (
-    <div>
+    <Pai>
+      <link rel="icon" href="/favicon.ico" sizes="any" />
       <Teste>Hello world!!</Teste>
-    </div>
+    </Pai>
   );
 }
